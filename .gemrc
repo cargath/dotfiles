@@ -1,5 +1,4 @@
-# use local ruby installation
-gem: -n/usr/local/bin
-
-# skip installation of all documentation
-gem: --no-document
+# --[no-]user-install - Install in user's home directory instead of GEM_HOME
+# -n, --bindir DIR - Directory where binary files are located
+# -N, --no-document - Disable documentation generation
+gem: --user-install --bindir /usr/local/bin --no-document
