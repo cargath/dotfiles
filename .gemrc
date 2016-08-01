@@ -1,0 +1,5 @@
+# use local ruby installation
+gem: -n/usr/local/bin
+
+# skip installation of all documentation
+gem: --no-document
