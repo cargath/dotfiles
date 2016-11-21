@@ -1,2 +1,2 @@
-# home
+# dotfiles
 My configuration files
